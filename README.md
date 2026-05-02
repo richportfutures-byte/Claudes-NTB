@@ -60,6 +60,14 @@ Run:
 pytest
 ```
 
+## Repository Hygiene
+
+Repository role, cleanup rules, and current artifact classifications are tracked in:
+
+- `docs/repo-role.md`
+- `docs/hygiene-standards.md`
+- `docs/data-inventory.md`
+
 ## Hardening Still Needed
 
 - Move more risk and doctrine checks out of prompts and into deterministic Python validation.
