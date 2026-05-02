@@ -12,6 +12,8 @@ These standards apply to `Claudes-NTB`, the operator-facing Marimo app repositor
   - `git rev-parse --short HEAD`
 - Record those checks in the work report when the task involves cleanup, migration, branch changes, or removal decisions.
 
+Default branch changes require repository identity verification, branch graph verification, and main-vs-product-branch verification before any action is taken. Branch deletion remains a destructive action requiring explicit operator approval. Empty or obsolete branches should be retained until specifically approved for removal.
+
 ## Destructive Work Requires Approval
 
 Do not perform any of the following without explicit operator approval for the specific action:

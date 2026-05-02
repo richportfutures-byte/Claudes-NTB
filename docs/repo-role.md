@@ -7,3 +7,7 @@ This repository works alongside `/Users/stu/Projects/NinjaTradeBuilder-main`, wh
 `Claudes-NTB` is not a duplicate of `NinjaTradeBuilder-main`. It is a separate product-facing repo with a distinct role: presenting and validating the operator-facing Marimo v3 experience while depending on backend/runtime behavior that may live in the main package repo.
 
 `ntb-marimo-console` is separate from this repository and must not be touched by this repo cleanup. Hygiene work in `Claudes-NTB` applies only to this repo unless the operator explicitly approves a separate cross-repo task.
+
+## Branch Role
+
+`migration/ninjatradebuilder-v3` is the current product/default branch for `Claudes-NTB`. `main` is only the initial repository branch and is retained for now. `main` should not be deleted without explicit operator approval.
